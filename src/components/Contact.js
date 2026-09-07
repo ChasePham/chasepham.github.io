@@ -11,7 +11,7 @@ function Contact() {
         <h2>Tell me what you're building.</h2>
 
         <a className="contact-email" href="mailto:chase9659@gmail.com">
-          chase9659@gmail.com
+          chasejpham@gmail.com
         </a>
       </div>
 

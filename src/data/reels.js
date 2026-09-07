@@ -8,13 +8,9 @@ import photo_7 from "../images/IMG_2603.png"
 import photo_8 from "../images/IMG_2752.png"
 import photo_9 from "../images/IMG_3772.png"
 import photo_10 from "../images/IMG_6746.png"
-import photo_11 from "../images/IMG_7479.png"
+import photo_11 from "../images/IMG_9353.png"
 
 export const reels = [
-  {
-    photo: photo_1,
-    title_image: "Grad Photo",
-  },
   {
     photo: photo_2,
     title_image: "Lost In Dreams LA",
@@ -22,6 +18,10 @@ export const reels = [
   {
     photo: photo_3,
     title_image: "Hakuba, Japan Snowboarding",
+  },
+  {
+    photo: photo_1,
+    title_image: "Grad Photo",
   },
   {
     photo: photo_4,

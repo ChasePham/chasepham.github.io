@@ -1,4 +1,5 @@
 import portrait from "../images/IMG_7479.png"
+
 function About() {
   return (
     <section id="about" className="section">
@@ -26,11 +27,39 @@ function About() {
           </p>
 
           <div className="about-tags">
-            <span className="tag">React</span>
             <span className="tag">Java</span>
             <span className="tag">Python</span>
             <span className="tag">Go</span>
             <span className="tag">JavaScript</span> 
+            <span className="tag">TypeScript</span>
+            <span className="tag">Scala</span>
+            <span className="tag">Swift</span>
+            <span className="tag">React</span>
+            <span className="tag">SQL</span>
+            <span className="tag">NoSQL</span>
+            <span className="tag">Docker</span>
+            <span className="tag">OpenTelemetry</span>
+            <span className="tag">Software Observability</span>
+            <span className="tag">Observe</span>
+            <span className="tag">Snowflake</span>
+            <span className="tag">New Relic</span>
+            <span className="tag">Splunk</span>
+            <span className="tag">ServiceNow</span>
+            <span className="tag">Claude</span>
+            <span className="tag">AWS</span>
+            <span className="tag">ECS</span>
+            <span className="tag">DynamoDB</span>
+            <span className="tag">Fargate</span>
+            <span className="tag">Lambda</span>
+            <span className="tag">Kubernetes</span>
+            <span className="tag">Jenkins</span>
+            <span className="tag">Node</span>
+            <span className="tag">GRPC</span>
+            <span className="tag">Cloud Computing</span>
+            <span className="tag">Full Stack Development</span>
+            <span className="tag">Agile Development</span>
+            <span className="tag">AI Automation</span>
+            <span className="tag">DevOps</span>
 
           </div>
         </div>
