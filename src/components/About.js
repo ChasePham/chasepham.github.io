@@ -1,4 +1,4 @@
-import portrait from "../images/portrait.png"
+import portrait from "../images/IMG_7479.png"
 function About() {
   return (
     <section id="about" className="section">
