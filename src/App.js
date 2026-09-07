@@ -1,19 +1,21 @@
 import './App.css';
-import SideBar from './components/SideBar.js'
-import About from './components/About.js'
-import Experience from './components/Experience.js'
-import Resume from './components/Resume.js'
-import Contact from './components/Contact.js'
+import SideBar from './components/SideBar';
+import About from './components/About';
+import Experience from './components/Experience';
+import Reels from './components/Reels';
+import Resume from './components/Resume';
+import Contact from './components/Contact';
+
 function App() {
   return (
-    <div>
-      <SideBar></SideBar>
+    <div className="shell">
+      <SideBar />
       <main>
-        <About></About>
-        <Experience></Experience>
-        <Reel></Reel>
-        <Resume></Resume>
-        <Contact></Contact>
+        <About />
+        <Experience />
+        <Reels />
+        <Resume />
+        <Contact />
       </main>
     </div>
   );
