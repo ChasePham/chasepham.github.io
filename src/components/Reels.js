@@ -1,3 +1,5 @@
+import { reels } from "../data/reels";
+import ReelsItem from "./ReelsItem";
 function Reels() {
   return (
     <section id="reel" className="section">
@@ -6,6 +8,9 @@ function Reels() {
         <span>Reel</span>
       </div>
       <h2>On the job</h2>
+      {
+        reels.map(reel => (<ReelsItem key={reel.title_image} {...reel} />))
+      }
     </section>
   );
 }
