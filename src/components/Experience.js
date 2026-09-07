@@ -1,3 +1,6 @@
+import { experience } from "../data/experience";
+import ExperienceItem from "./ExperienceItem";
+
 function Experience() {
   return (
     <section id="experience" className="section">
@@ -6,6 +9,10 @@ function Experience() {
         <span>Experience</span>
       </div>
       <h2>Where I've worked</h2>
+
+      {experience.map(job => (
+        <ExperienceItem key={job.title + job.period} {...job} />
+      ))}
     </section>
   );
 }
