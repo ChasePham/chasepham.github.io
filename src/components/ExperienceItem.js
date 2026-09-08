@@ -1,7 +1,10 @@
-function ExperienceItem({ title, company, period, location, bullets }) {
+function ExperienceItem({ title, company, period, location, bullets, logo }) {
   return (
     <article className="experience-item">
-      <div className="experience-period">{period}</div>
+      <div className="experience-period">
+        <span>{period}</span>
+        {logo && <img className="experience-logo" src={logo} alt={company} />}
+      </div>
 
       <div className="experience-detail">
         <h3>{title} · {company}</h3>

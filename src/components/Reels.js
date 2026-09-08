@@ -35,7 +35,7 @@ function Reels() {
         <span className="kicker-num">03</span>
         <span>Reel</span>
       </div>
-      <h2>On the job</h2>
+      <h2>Outside The Office</h2>
 
       <div
         className="reel-strip"
