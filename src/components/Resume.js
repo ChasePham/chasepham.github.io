@@ -1,20 +1,32 @@
-import resume from "../images/chasepham_resume.pdf"
+import resume from "../data/chasepham_resume.pdf";
+
 function Resume() {
-    return (
-      <div className="container my-5" id = "resume">
-        <h2 className="text-center">Resume</h2>
-  
-        <div className="d-flex justify-content-center">
-          <iframe
-            src={resume}
-            title="Resume"
-            width="80%"
-            height="500px"
-            style={{ border: '1px solid #ccc', borderRadius: '8px' }}
-          ></iframe>
+  return (
+    <section id="resume" className="section">
+      <div className="resume-head">
+        <div>
+          <div className="kicker">
+            <span className="kicker-num">04</span>
+            <span>Resume</span>
+          </div>
+          <h2>The one-pager</h2>
         </div>
+
+        <a className="btn btn-primary" href={resume} download="Chase-Pham-Resume.pdf">
+          Download PDF ↓
+        </a>
       </div>
-    );
-  }
-  
-  export default Resume;
+
+      <div className="resume-preview">
+        <object data={resume} type="application/pdf" aria-label="Chase Pham resume">
+          <p>
+            Your browser can't display PDFs inline.{" "}
+            <a href={resume} target="_blank" rel="noreferrer">Open the resume in a new tab</a>.
+          </p>
+        </object>
+      </div>
+    </section>
+  );
+}
+
+export default Resume;
