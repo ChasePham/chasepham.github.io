@@ -1,1 +1,0 @@
-{"version":3,"file":"static/css/main.cb3cf381.css","mappings":"AAAA,EACI,aACJ,CCDA,QACI,YACJ","sources":["App.css","components/Navbar.css"],"sourcesContent":["a{\n    color: inherit\n}","\n#navbar{\n    display:flex;\n}"],"names":[],"sourceRoot":""}
