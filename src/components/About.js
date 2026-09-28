@@ -6,7 +6,7 @@ function About() {
       <div className="kicker"><span className="kicker-num">01</span><span>About</span></div>
 
       <h2 className="about-headline">
-        Software engineer at Capital One, working across the full stack.
+      "Life happens wherever you are. Whether you make it or not"
       </h2>
 
       <div className="about-body">
@@ -16,7 +16,7 @@ function About() {
 
         <div className="about-text">
           <p>
-            Hello World! I'm Chase, and I'm currently living near the Washington D.C area where I currently work as a Software Engineer. Prior to that, I got my bachelors from the University of Texas at Austin where i studied Neuroscience,
+            Hello World! I'm Chase and I'm currently living near the Washington D.C area where I currently work as a Software Engineer. Prior to that, I got my bachelors from the University of Texas at Austin where i studied Neuroscience,
             and I have always had a passion for software and creating. A little about me is that I was born and raised from Houston, TX, I have a side passion for traveling, and I'm a huge music person!
           </p>
           <p>
