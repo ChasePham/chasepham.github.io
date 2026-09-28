@@ -16,14 +16,11 @@ function About() {
 
         <div className="about-text">
           <p>
-            Currently working at Capital One in DC as a software engineer focused on
-            full-stack development. I recently graduated from the University of Texas
-            at Austin, where I studied neuroscience and computing basics.
+            Hello World! I'm Chase, and I'm currently living near the Washington D.C area where I currently work as a Software Engineer. Prior to that, I got my bachelors from the University of Texas at Austin where i studied Neuroscience,
+            and I have always had a passion for software and creating. A little about me is that I was born and raised from Houston, TX, I have a side passion for traveling, and I'm a huge music person!
           </p>
           <p>
-            Most of my learning has come from tinkering on a wide range of projects and
-            networking with other like-minded engineers. I'm always looking for new ways
-            to expand my skillset.
+            Feel free to shoot me with any questions and lets connect!
           </p>
 
           <div className="about-tags">
@@ -45,6 +42,9 @@ function About() {
             <span className="tag">SQL</span>
             <span className="tag">NoSQL</span>
             <span className="tag">Docker</span>
+            <span className="tag">Kubernetes</span>
+            <span className="tag">Terraform</span>
+            <span className="tag">OpenTofu</span>
             <span className="tag">AWS</span>
             <span className="tag">Splunk</span>
             <span className="tag">Jenkins</span>
